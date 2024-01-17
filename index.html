@@ -7,24 +7,41 @@
     <title>Portifolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,300&display=swap">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+<!-- header -->    
     <header class="header">
+        
         <h1> Hudson </h1>
-        <h2> Desenvolvedor Front-end </h2>
+     
         <nav>
+            
             <ul>
-                <li><a href="#inicio">Inicío</a> </li>
+                <li>
+                    <!-- icone do menu hamburguer-->
+                    <div class='bx bx-menu' id="boxMenu"></div>
+                </li>
+                <!-- barra de navegação -->
+                <li><a href="#inicio" class="active">Inicío</a> </li>
                 <li><a href="#quemSou">Quem Sou</a></li>
                 <li><a href="trilaProfissional">Trilha Profissional</a></li>
                 <li><a href="portifolio">Projetos Desenvolvidos</a></li>
                 <li><a href="contato">Contato</a></li>
              </ul>
         </nav>
-
-
-
-
     </header>
+
+    <section class="inicio" id="inicio">
+        <div class="home-content">
+            <h1>Oi, eu sou <span> Hudson Cleiton </span></h1>
+            <div class="text-animate">
+                <h3>Desenvolvedor Front-end</h3>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, nesciunt iste dicta, 
+            fugiat neque fuga cumque eius tempore similique deserunt facilis tenetur consequatur 
+            possimus laborum nisi numquam. Ipsa, blanditiis possimus?</p>
+        </div>
+    </section>
 </body>
 </html>

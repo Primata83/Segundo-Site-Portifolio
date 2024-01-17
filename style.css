@@ -4,4 +4,48 @@ body {
     font-style: normal;
   }
 
-  
+.header {
+  background: rgb(204, 235, 4);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90%;
+  justify-content: space-between;
+  padding: 1rem 5%;
+}
+
+nav li {
+  display: inline-block;
+  margin: 20px;   
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  transition: .3s;
+  }
+
+nav a:hover,
+nav a.active {
+  color: #fff
+}
+
+#boxMenu {
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  display: none;
+}
+
+
+.home-content{
+  max-width: 40rem;
+  padding-top: 18%;
+}
+
+
