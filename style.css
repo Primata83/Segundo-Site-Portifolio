@@ -2,6 +2,7 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: #2d2e2e;
   }
 
 .header {
@@ -14,6 +15,11 @@ body {
   width: 90%;
   justify-content: space-between;
   padding: 1rem 5%;
+  border-bottom: 0.2rem solid;
+  padding-bottom: 1rem;
+
+  
+
 }
 
 nav li {
@@ -23,7 +29,7 @@ nav li {
 }
 
 nav a {
-  color: #000000;
+  color: #2d2e2e;
   font-weight: 600;
   font-size: 0.8rem;
   text-decoration: none;
@@ -32,13 +38,15 @@ nav a {
 
 nav a:hover,
 nav a.active {
-  color: #75eb00
+  font-size: 1rem;
+  font-weight: 500;
+  -webkit-text-stroke: 2px #2d2e2e;
 }
 
 #caixaMenu {
   font-size: 1rem;
   cursor: pointer;
-  color: black;
+  color: #2d2e2e;
   display: none;
 }
 
@@ -54,7 +62,7 @@ nav a.active {
   font-size: 3rem;
   font-weight: 600;
   color: rgb(226, 255, 3);
-  -webkit-text-stroke: 2px black
+  -webkit-text-stroke: 2px #2d2e2e;
 }
 
 .btnCaixa {
@@ -74,8 +82,8 @@ nav a.active {
   height: 63%;
   background:rgb(226, 255, 3);
   text-decoration: none;
-  color: black;
-  border: 0.1rem solid black; 
+  color: #2d2e2e;
+  border: 0.1rem solid #2d2e2e;
   border-radius: 0.8rem ;
   font-size: 1rem;
   font-weight: 600;
@@ -111,7 +119,7 @@ nav a.active {
   height: 100%;
   transition: 0.5s;
   z-index: -1;
-  background: black
+  background: #2d2e2e;
   
 }
 
