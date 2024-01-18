@@ -5,7 +5,7 @@ body {
   }
 
 .header {
-  background: rgb(204, 235, 4);
+  background: rgb(226, 255, 3);
   display: flex;
   align-items: center;
   position: fixed;
@@ -25,27 +25,101 @@ nav li {
 nav a {
   color: #000000;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.8rem;
   text-decoration: none;
   transition: .3s;
   }
 
 nav a:hover,
 nav a.active {
-  color: #fff
+  color: #75eb00
 }
 
-#boxMenu {
-  font-size: 20px;
+#caixaMenu {
+  font-size: 1rem;
   cursor: pointer;
   color: black;
   display: none;
 }
 
-
 .home-content{
   max-width: 40rem;
-  padding-top: 18%;
+  padding-top: 12%;
+  padding-left: 9%;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
+
+.home-content .text-animate h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: rgb(226, 255, 3);
+  -webkit-text-stroke: 2px black
+}
+
+.btnCaixa {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  width: 25rem;
+}
+
+.btnCaixa .btn {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 11rem;
+  height: 63%;
+  background:rgb(226, 255, 3);
+  text-decoration: none;
+  color: black;
+  border: 0.1rem solid black; 
+  border-radius: 0.8rem ;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  z-index: 2;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.btnCaixa .btn:hover {
+  color: rgb(226, 255, 3);
+}
+
+.btnCaixa .btn :nth-child(2) {
+  background: transparent;
+  color: rgb(226, 255, 3);
+}
+
+.btnCaixa .btn :nth-child(2)::before {
+  background: rgb(226, 255, 3);
+}
+
+.btnCaixa .btn :nth-child(2):hover {
+  color: rgb(226, 255, 3);
+}
+
+.btnCaixa .btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  transition: 0.5s;
+  z-index: -1;
+  background: black
+  
+}
+
+.btnCaixa .btn:hover:before {
+  width: 100%;
+}
+
+
+
 
 
