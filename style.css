@@ -6,7 +6,7 @@ body {
   }
 
 .header {
-  background: rgb(226, 255, 3);
+  background: rgb(226, 255, 3) transparent;
   display: flex;
   align-items: center;
   position: fixed;
@@ -20,6 +20,12 @@ body {
   font-size: 0.9rem;
 }
 
+#Pnome{
+  font-family: "Libre Barcode 128 Text", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3rem;
+}
 
 nav li {
   display: inline-block;
@@ -33,7 +39,8 @@ nav a {
   font-size: 0.8rem;
   text-decoration: none;
   transition: .3s;
-  }
+  
+}
 
 nav a:hover,
 nav a.active {
@@ -43,33 +50,38 @@ nav a.active {
 }
 
 #caixaMenu {
-  font-size: 1rem;
+  font-size: 2rem;
   cursor: pointer;
   color: #2d2e2e;
   display: none;
+  height: auto;
+
+  
 }
 
 section {
   min-height: 100vh;
   padding: 5rem 3% 2rem;
+  max-width: 100%;
 }
 
 .home{
   display:flex;
   padding: 10%;
-  background: url('prontodois.jpg') no-repeat right center;
-  background-size: 55%;
+  background: url('prontodois.jpg') no-repeat right;
+  background-size: 60%;
   margin-top: 1%;
-  background-position: right 0.1%;
-  
+  background-position: right;
 }
 
 .home-content{
   max-width: 40rem;
-  padding-top: 12%;
+  padding-top: 7%;
   padding-left: 9%;
   font-size: 1.2rem;
   font-weight: 500;
+  max-width: 50%;
+  
 }
 
 .home-content h1 {
@@ -89,19 +101,28 @@ section {
   font-weight: 600;
   color: rgb(226, 255, 3);
   -webkit-text-stroke: 2px #2d2e2e;
+  display: flex;
+  max-width: 40%;
+
+
+  
 }
 
 .home-content p {
   font-size: 1.2rem;
   margin: 1rem 0 2rem;
+  max-width: 80%;
 }
 
 .btnCaixa {
-  position: relative;
+  
   display: flex;
   justify-content: space-between;
-  height: 5rem;
+  height: 4rem;
   width: 25rem;
+  
+  
+  
 }
 
 .btnCaixa .btn {
@@ -158,12 +179,16 @@ section {
 }
 
 .sociais {
-  position: absolute;
-  bottom: 2rem;
-  width: 190px;
+  position: fixed;
+  bottom: 0.1rem;
+  width: 180px;
   display: flex;
   justify-content: space-between;
   margin-left: 7%;
+  height: 20%;
+  
+  
+  
   
 }
 
