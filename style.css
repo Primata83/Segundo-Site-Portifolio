@@ -6,7 +6,7 @@ body {
   }
 
 .header {
-  background: rgb(226, 255, 3) transparent;
+  background: rgb(226, 255, 3);
   display: flex;
   align-items: center;
   position: fixed;
@@ -72,6 +72,7 @@ section {
   background-size: 60%;
   margin-top: 1%;
   background-position: right;
+  
 }
 
 .home-content{
@@ -81,6 +82,7 @@ section {
   font-size: 1.2rem;
   font-weight: 500;
   max-width: 50%;
+  
   
 }
 
@@ -92,7 +94,6 @@ section {
 }
 
 .home-content .text-animate {
-  position: relative;
   width: 40rem;
 }
 
@@ -101,11 +102,6 @@ section {
   font-weight: 600;
   color: rgb(226, 255, 3);
   -webkit-text-stroke: 2px #2d2e2e;
-  display: flex;
-  max-width: 40%;
-
-
-  
 }
 
 .home-content p {
@@ -115,14 +111,10 @@ section {
 }
 
 .btnCaixa {
-  
   display: flex;
   justify-content: space-between;
   height: 4rem;
-  width: 25rem;
-  
-  
-  
+  width: 23rem;
 }
 
 .btnCaixa .btn {
@@ -179,17 +171,13 @@ section {
 }
 
 .sociais {
-  position: fixed;
+  position: absolute;
   bottom: 0.1rem;
   width: 180px;
   display: flex;
   justify-content: space-between;
   margin-left: 7%;
-  height: 20%;
-  
-  
-  
-  
+  height: 18%;
 }
 
 .sociais a {
@@ -199,7 +187,7 @@ section {
   align-items: center;
   width: 35px;
   height: 35px;
-  background: rgb(226, 255, 3);
+  background: rgb(226, 255, 3); 
   border-radius: 50%;
   font-size: 20px;
   color: #2d2e2e;
@@ -229,6 +217,9 @@ section {
   width: 100%;
 }
 
+@media (min-width: 1024px) {
+
+}
 
 
 
