@@ -31,6 +31,7 @@ nav li {
   display: inline-block;
   margin: 20px;   
   text-transform: uppercase;
+  
 }
 
 nav a {
@@ -39,6 +40,7 @@ nav a {
   font-size: 0.8rem;
   text-decoration: none;
   transition: .3s;
+  cursor: pointer;
   
 }
 
@@ -55,6 +57,7 @@ nav a.active {
   color: #2d2e2e;
   display: none;
   height: auto;
+  cursor: pointer;
 
   
 }
@@ -68,10 +71,11 @@ section {
 .home{
   display:flex;
   padding: 10%;
-  background: url('prontodois.jpg') no-repeat right;
+  background: url('principal.jpg') no-repeat right;
   background-size: 60%;
   margin-top: 1%;
   background-position: right;
+  
   
 }
 
@@ -115,6 +119,7 @@ section {
   justify-content: space-between;
   height: 4rem;
   width: 23rem;
+  cursor: pointer;
 }
 
 .btnCaixa .btn {
@@ -178,6 +183,7 @@ section {
   justify-content: space-between;
   margin-left: 7%;
   height: 18%;
+  cursor: pointer;
 }
 
 .sociais a {
