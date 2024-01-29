@@ -18,7 +18,7 @@ body {
   padding: 1rem 5%;
   border-bottom: 0.2rem ;
   padding-bottom: 1rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   z-index: 100;
 }
 
@@ -40,7 +40,7 @@ nav li {
 nav a {
   color: #2d2e2e;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-decoration: none;
   transition: .3s;
   cursor: pointer;
@@ -232,19 +232,23 @@ section {
   margin-top: 0.1rem;
   gap: 0.1rem;
   padding-bottom: 6rem;
-  
-  background-image: linear-gradient(to top, #ffff, rgb(226, 255, 3))
-  
-  
+  text-align: center;
+  background-image: linear-gradient(to top, #ffff, rgb(226, 255, 3));
 }
 
 .cabeca {
   text-align: initial;
   font-size: 4rem;
+}
 
-  
- 
-  
-  
-  
+.quemsou-content h3 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.quemsou-content p {
+  margin: 2rem;
+  font-size: 1.2rem;
+  max-width: 70rem;
+
 }
