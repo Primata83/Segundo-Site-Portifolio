@@ -250,5 +250,37 @@ section {
   margin: 2rem;
   font-size: 1.2rem;
   max-width: 70rem;
+}
 
+.trilhaProfissional {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: auto;
+  padding-bottom: 5rem;
+}
+
+.trilhaProfissional .educacaoLinha {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.trilhaProfissional .aducacaoColuna {
+  flex: 1 1 40rem;
+}
+
+.aducacaoColuna .titulo {
+  font-size: 2.5rem;
+  margin: 0 0 1.5rem 2rem;
+}
+
+.aducacaoColuna .educacaoCaixa {
+  border-left: .4rem solid rgb(226, 255, 3);
+}
+
+.educacaoCaixa .educacaoContent {
+  position: relative;
+  padding-left: 2rem;
 }
