@@ -241,6 +241,13 @@ section {
   font-size: 4rem;
 }
 
+.quemSou .cabeca span {
+  font-size: 4rem;
+  font-weight: 600;
+  color: rgb(226, 255, 3);
+  -webkit-text-stroke: 3px #2d2e2e;
+}
+
 .quemsou-content h3 {
   text-align: center;
   font-size: 1.5rem;
@@ -259,6 +266,13 @@ section {
   flex-direction: column;
   min-height: auto;
   padding-bottom: 5rem;
+}
+
+.trilhaProfissional .cabeca span {
+  font-size: 4rem;
+  font-weight: 600;
+  color: rgb(226, 255, 3);
+  -webkit-text-stroke: 3px #2d2e2e;
 }
 
 .trilhaProfissional .educacaoLinha {
@@ -283,4 +297,17 @@ section {
 .educacaoCaixa .educacaoContent {
   position: relative;
   padding-left: 2rem;
+}
+
+.educacaoLinha .aducacaoColuna .titulo {
+  font-size: 2.5rem;
+}
+
+.educacaoContent .content h3 {
+  font-size: 1.2rem;
+}
+
+.educacaoContent .content .ano i {
+  font-size: 1.3rem;
+
 }
