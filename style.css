@@ -259,6 +259,8 @@ section {
   max-width: 70rem;
 }
 
+/* OS SELETORES DAS CLASSES USADOS AQUI, VALEM PARA A SESSÃO INTEIRA DA TRILHA PROFISSIONAL.
+( EDUCAÇÃO E ESPERIÊNCIA PROFISSIONAL ) */
 .trilhaProfissional {
   display: flex;
   justify-content: center;
@@ -300,7 +302,7 @@ section {
 }
 
 .educacaoLinha .aducacaoColuna .titulo {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 
 .educacaoContent .content h3 {
@@ -309,5 +311,8 @@ section {
 
 .educacaoContent .content .ano i {
   font-size: 1.3rem;
+}
 
+.educacaoContent .content p {
+  font-size: 1rem;
 }
