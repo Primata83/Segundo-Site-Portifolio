@@ -317,3 +317,23 @@ section {
 .educacaoContent .content p {
   font-size: 1rem;
 }
+
+.expCodificar h3 {
+  text-align: center;
+  font-size: 2.3rem;
+  padding-top: 2rem;
+  
+  
+}
+
+.expCodificar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.expCodificar figure {
+  margin: 0 3rem;
+  text-align: center;
+}
+
