@@ -238,13 +238,13 @@ section {
   -webkit-text-stroke: 3px #2d2e2e;
 }
 
-.quemsou-content h3 {
+.quemsouConteiner h3 {
   text-align: center;
   font-size: 1.5rem;
   padding-bottom: 0rem;
 }
 
-.quemsou-content p {
+.quemsouConteiner p {
   margin: 2rem;
   font-size: 1.2rem;
   max-width: 70rem;
@@ -334,6 +334,10 @@ section {
   padding-top: 2rem;
 }
 
+.habilidades figcaption{
+  font-size: 1rem;
+}
+
 .btnCurriculo {
   align-items: center;
   width: 100%;
@@ -395,5 +399,36 @@ section {
 
 .btnCurriculo .curriculo:hover:before {
   width: 100%;
+}
+
+.portifolio {
+  background-color: #2d2e2e;
+  margin-top: 8rem;
+}
+
+.portifolio .cabeca {
+  font-size: 4rem;
+  color:rgb(226, 255, 3);
+  text-align: center;
+
+}
+
+.portifolio .cabeca span {
+  font-size: 4rem;
+  font-weight: 600;
+  color:#2d2e2e; 
+  -webkit-text-stroke: 2px rgb(226, 255, 3);
+  margin-top: 0;
+}
+
+.portifolio figcaption {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+
+.figure img {
+  background: url('projetos/site-da-barbearia-cortado-7.jpg');
+  border-radius: 40rem;
+  display: flex;
 }
 
