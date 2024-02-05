@@ -426,9 +426,11 @@ section {
   font-size: 1.2rem;
 }
 
-.figure img {
-  background: url('projetos/site-da-barbearia-cortado-7.jpg');
-  border-radius: 40rem;
+.portConteiner figure img {
+  border-radius: 10px;
+  -webkit-text-stroke: 2px #2d2e2e;
   display: flex;
+  height: 400px;
+  width: 350px;
 }
 

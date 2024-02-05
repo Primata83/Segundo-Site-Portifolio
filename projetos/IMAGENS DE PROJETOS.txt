@@ -1,0 +1,6 @@
+site da barbearia - html e css
+compra moto da yamaha - figma
+circuito de interlagos - figma
+programa de desconto - python
+programa de sorveteria - python
+programa de banco de dados - python
