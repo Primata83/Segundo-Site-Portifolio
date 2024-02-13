@@ -242,14 +242,13 @@ section {
   font-size: 1.2rem;
   max-width: 70rem;
   margin-bottom: 0;
-  text-shadow: 0 1px 5px #5d5e5e;
+  
 }
 
 .quemsouimg {
   position: relative;
   width: 25rem;
   height: 25rem;
-
   display:flex;
   justify-content: center;
   align-items: center;
@@ -257,23 +256,22 @@ section {
 }
 
 .quemsouimg img {
-  width: 90%;
+  width: 100%;
   border-radius: 50%;
   border: .2rem solid #2d2e2e;
 }
 
 .quemsouimg .circulo {
   position:absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50, 50%) rotate(0);
-  width: 100%;
-  height: 100%;
+  top: 9%;
+  transform: translate(-50, -50%) rotate(0);
+  width: 103%;
+  height: 98%;
   border-radius: 50%;
-  border-top: .2rem solid #2d2e2e;
-  border-bottom: .2rem solid #2d2e2e;
-  border-left: .2rem solid #06b8b8;
-  border-right: .2rem solid #0d8f8f;
+  border-top: .4rem solid rgb(226, 255, 3);
+  border-bottom: .4rem solid rgb(226, 255, 3);
+  border-left: .3rem solid #2d2e2e;
+  border-right: .3rem solid #2d2e2e;
 }
 
 /* OS SELETORES DAS CLASSES USADOS AQUI, VALEM PARA A SESSÃO INTEIRA DA TRILHA PROFISSIONAL.
