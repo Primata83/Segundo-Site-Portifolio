@@ -263,15 +263,15 @@ section {
 
 .quemsouimg .circulo {
   position:absolute;
-  top: 9%;
+  top: 7%;
   transform: translate(-50, -50%) rotate(0);
-  width: 103%;
-  height: 98%;
-  border-radius: 50%;
+  width: 116%;
+  height: 100%;
+  border-radius: 100%;
   border-top: .4rem solid rgb(226, 255, 3);
   border-bottom: .4rem solid rgb(226, 255, 3);
-  border-left: .3rem solid #2d2e2e;
-  border-right: .3rem solid #2d2e2e;
+  border-left: .4rem solid #2d2e2e;
+  border-right: .4rem solid #2d2e2e;
 }
 
 /* OS SELETORES DAS CLASSES USADOS AQUI, VALEM PARA A SESSÃO INTEIRA DA TRILHA PROFISSIONAL.
