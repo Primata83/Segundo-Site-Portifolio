@@ -429,13 +429,13 @@ section {
   width: 100%;
 }
 /* PROJETOS DESENVOLVIDOS USAM A CLASSE .PORTIFILIO */
-.portifolio {
+.projetos {
   background-color: #2d2e2e;
   margin-top: 8rem;
   
 }
 
-.portifolio .cabeca {
+.projetos .cabeca {
   font-size: 4rem;
   color:rgb(226, 255, 3);
   text-align: center;
@@ -443,7 +443,7 @@ section {
   
 }
 
-.portifolio .cabeca span {
+.projetos .cabeca span {
   font-size: 4rem;
   font-weight: 600;
   color:#2d2e2e; 
@@ -452,37 +452,37 @@ section {
   text-shadow:0 2px 10px rgb(226, 255, 3);
 }
 
-.portifolio figcaption {
+.projetos figcaption {
   color: rgb(255, 255, 255);
   font-size: 1.2rem;
 }
 
-.portConteiner figure img {
+.projetoConteiner figure img {
   border-radius: 15px;
   height: 360px;
   width: 300px;
   box-shadow: 0 5px 10px black;
 }
 
-.portConteiner figure img:hover{
+.projetoConteiner figure img:hover{
   box-shadow: 0 10px 15px black;
   transform: scale(1.03);
   transition: .3s;
 }
 
-.portConteiner {
+.projetoConteiner {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.portConteiner figure {
+.projetoConteiner figure {
   margin: 0 2rem;
   text-align: center;
   padding-top: 4rem;
 }
 
-.portConteiner .card {
+.projetoConteiner .card {
   box-shadow: 0 5px 10px black;
   border-radius: 15px;
   background: #ffffff;
@@ -491,7 +491,7 @@ section {
   cursor: pointer;
 }
 
-.portConteiner h3{
+.projetoConteiner h3{
   font-size: 1.3rem;
   text-shadow: 0 3px 10px #5d5e5e;
 }
@@ -501,20 +501,20 @@ section {
   height: auto;
 }
 
-.portConteiner .card img {
+.projetoConteiner .card img {
   height: 80px;
   width: 80px;
   margin-top: 16px;
 }
 
-.portConteiner .card:hover{
+.projetoConteiner .card:hover{
   box-shadow: 0 10px 15px black;
   transform: scale(1.03);
   transition: .3s;
   
 }
 
-.portConteiner figcaption{
+.projetoConteiner figcaption{
   font-size: 1.2rem;
   padding-top:0.1rem;
 }
