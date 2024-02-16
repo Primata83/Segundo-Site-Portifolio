@@ -60,6 +60,7 @@ section {
   min-height: 100vh;
   padding: 3rem;
   max-width: 100%;
+  text-decoration: none;
 }
 
 /*__ INICIO IMAGEM __ */
@@ -545,11 +546,11 @@ section {
   background-color:#2d2e2e;
   min-height: auto;
   padding-bottom: 10rem;
-  text-decoration: none;
+  
 }
 
 .contato h3{
-  text-decoration: none;
+  
   text-align: center;
   font-size: 4rem;
   color:#2d2e2e; 
@@ -557,10 +558,11 @@ section {
   margin-top: 0;
   text-shadow:0 2px 10px rgb(226, 255, 3);
   
+  
 }
 
 .contato span {
-  text-decoration: none;
+  
   font-size: 4rem;
   color: rgb(226, 255, 3);
   text-shadow:0 2px 10px rgb(226, 255, 3);
@@ -570,6 +572,7 @@ section {
   max-width: 70rem;
   margin: auto;
   text-align: center;
+ 
 }
 
 .contato form .caixaEntrada{
@@ -577,6 +580,7 @@ section {
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
+ 
 }
 .contato form .caixaEntrada .campoEntrada {
   position: relative;
@@ -615,12 +619,14 @@ resize:none;
 
 form textarea {
   font-family: "Lato", sans-serif;
-
 }
+
 /*__ BOTÃO ENVIAR MENSAGEM __*/
 
 .btnenviar {
   align-items: center;
+  
+  text-decoration: none;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -685,6 +691,10 @@ form textarea {
   width: 100%;
 }
 
+.btnenviar .btn button {
+  align-items: center;
+  text-decoration: none;
+}
 
 
 
