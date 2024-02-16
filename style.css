@@ -60,7 +60,8 @@ section {
   min-height: 100vh;
   padding: 3rem;
   max-width: 100%;
-  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  
 }
 
 /*__ INICIO IMAGEM __ */
@@ -544,21 +545,17 @@ section {
 
 .contato {
   background-color:#2d2e2e;
-  min-height: auto;
   padding-bottom: 10rem;
   
 }
 
-.contato h3{
-  
+.contato h2{
   text-align: center;
   font-size: 4rem;
   color:#2d2e2e; 
   -webkit-text-stroke: 2px rgb(226, 255, 3);
   margin-top: 0;
   text-shadow:0 2px 10px rgb(226, 255, 3);
-  
-  
 }
 
 .contato span {
@@ -570,7 +567,7 @@ section {
 
 .contato form {
   max-width: 70rem;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
  
 }
@@ -580,6 +577,7 @@ section {
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  
  
 }
 .contato form .caixaEntrada .campoEntrada {
@@ -593,14 +591,18 @@ section {
   width: 100%;
   height: 55%;
   padding: 0.3rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color:#2d2e2e;
   border-radius:3rem;
+  
 }
 
 .contato form .caixaEntrada .campoEntrada input::placeholder,
-.contato form .deixasuamsg textarea::placeholder {
-  color:#2d2e2e;
+.contato form .deixesuamsg textarea::placeholder {
+  color:#808080;
+  padding-top: 1rem;
+  font-family: "Lato", sans-serif;
+  text-decoration:none;
 }
 
 .contato form .deixesuamsg {
@@ -610,29 +612,24 @@ section {
 }
 
 .contato form .deixesuamsg textarea {
-resize:none;
+  resize: none;
 }
 
 .contato form .btnenviar .btn {
   cursor: pointer;
 }
 
-form textarea {
-  font-family: "Lato", sans-serif;
-}
-
 /*__ BOTÃO ENVIAR MENSAGEM __*/
 
 .btnenviar {
   align-items: center;
-  
-  text-decoration: none;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   height: 4rem;
   width: 13rem;
   cursor: pointer;
+  padding-left: 30rem;
   
 }
 
@@ -691,10 +688,6 @@ form textarea {
   width: 100%;
 }
 
-.btnenviar .btn button {
-  align-items: center;
-  text-decoration: none;
-}
 
 
 

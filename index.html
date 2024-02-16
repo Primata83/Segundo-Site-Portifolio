@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -316,9 +316,9 @@
     </section>
     <!-- SESSÃO CONTATO -->
     <section class="contato" id="contato">
-        <h3 class="cabeca">Fale <span>Comigo </span></h3>
+        <h2 class="cabeca"> FALE <span> COMIGO </span></h2>
 
-        <form action="#">
+        <form action="https://formsubmit.co/barbeariavr46@gmail.com" method="post">
             <div class="caixaEntrada">
                 <div class="campoEntrada">
                     <input type="texto" placeholder=" Nome Completo" required>
@@ -332,28 +332,36 @@
 
             <div class="caixaEntrada">
                 <div class="campoEntrada">
-                    <input type="number" placeholder=" Numero de Telefone" required>
+                    <input type="number" placeholder=" Número de Telefone" required>
                     <span class="focus"></span>
                 </div>
                 <div class="campoEntrada">
-                    <input type="texto" placeholder=" Assunto" required>
+                    <input type="texto" placeholder=" Assunto do Email" required>
                     <span class="focus"></span>
                 </div>
             </div>
 
             <div class="deixesuamsg">
-                <textarea name="" id="" cols="30" rows="10" placeholder="    Deixe Sua Mensagem" required></textarea>
+                <textarea name="" id="" cols="30" rows="10" placeholder=" Deixe Sua Mensagem" required></textarea>
                 <span class="focus"></span>
             </div>
 
             <div class="btnenviar">
-                <button type="submit" class="btn">Enviar</button>
+                <button type="enviar" class="btn">Enviar</button>
             </div>
         </form>
 
 
     </section>
-    <script src="main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+           var formulario = document.querySelector('form');
+     
+           formulario.addEventListener('click', function(e) {
+              e.preventDefault();
+           });
+        });
+     </script>
 
 </body>
 </html>
