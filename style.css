@@ -172,6 +172,8 @@ section {
   margin-left: 7%;
   height: 7%;
   cursor: pointer;
+  padding-top: 80rem;
+
 }
 
 .sociais a {
@@ -189,6 +191,7 @@ section {
   z-index: 1;
   overflow: hidden;
   transition: .5s;
+ 
 }
 
 .sociais a:hover {
