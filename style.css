@@ -3,7 +3,10 @@ body {
     font-weight: 400;
     font-style: normal;
     color: #2d2e2e;
+    text-decoration: none;
 }
+
+/*__ MENU SUPERIOR DE NAVEGAÇÃO __ */
 
 .header {
   background: rgb(226, 255, 3);
@@ -51,14 +54,15 @@ nav a.active {
   color: #2d2e2e;
   display: none;
   height: auto;
-  
 }
 
 section {
   min-height: 100vh;
-  padding: 5rem 3% 2rem;
+  padding: 3rem;
   max-width: 100%;
 }
+
+/*__ INICIO IMAGEM __ */
 
 .inicio{
   display:flex;
@@ -85,6 +89,7 @@ section {
 }
 
 .inicioConteiner .text-animate h3 {
+  text-decoration: none;
   font-size: 2.8rem;
   font-weight: 600;
   color: rgb(226, 255, 3);
@@ -158,6 +163,8 @@ section {
   width: 100%;
 }
 
+/*__ BOTÕES DAS REDES SOCIAIS __ */
+
 .sociais {
   position: absolute;
   bottom: 0.1rem;
@@ -205,6 +212,8 @@ section {
   width: 100%;
 }
 
+/*__ QUEM SOU __ */
+
 .quemSou {
   display: flex;
   justify-content: top;
@@ -231,6 +240,7 @@ section {
 }
 
 .quemsouConteiner h3 {
+  text-decoration: none;
   text-align: center;
   font-size: 1.8rem;
   padding-bottom: 0rem;
@@ -244,6 +254,8 @@ section {
   margin-bottom: 0;
   
 }
+
+/*__ QUEM SOU IMAGEM __ */
 
 .quemsouimg {
   position: relative;
@@ -274,8 +286,7 @@ section {
   border-right: .4rem solid #2d2e2e;
 }
 
-/* OS SELETORES DAS CLASSES USADOS AQUI, VALEM PARA A SESSÃO INTEIRA DA TRILHA PROFISSIONAL.
-(educação e experiência profissional) */
+/*__ TRILHA PROFISSIONAL (educação e experiência profissional) __*/
 
 .trilhaProfissional {
   display: flex;
@@ -331,6 +342,7 @@ section {
 
 .educacaoContent .content h3 {
   font-size: 1.2rem;
+  text-decoration: none;
 }
 
 .educacaoContent .content .ano i {
@@ -343,11 +355,14 @@ section {
 
 .habilidades h3 {
   text-align: center;
+  text-decoration: none;
   font-size: 2.3rem;
   padding-top: 2rem;
   text-shadow: 0 3px 10px #5d5e5e;
   width: 100%;
 }
+
+/*__ HABILIDADES __ */
 
 .habilidades {
   display: flex;
@@ -364,6 +379,8 @@ section {
 .habilidades figcaption{
   font-size: 1.0rem;
 }
+
+/*__ BOTÃO CURRICULO __*/
 
 .btnCurriculo {
   align-items: center;
@@ -428,11 +445,13 @@ section {
 .btnCurriculo .curriculo:hover:before {
   width: 100%;
 }
-/* PROJETOS DESENVOLVIDOS USAM A CLASSE .PORTIFILIO */
+
+/*__ PROJETOS DESENVOLVIDOS __*/
+
 .projetos {
   background-color: #2d2e2e;
   margin-top: 8rem;
-  
+
 }
 
 .projetos .cabeca {
@@ -492,6 +511,7 @@ section {
 }
 
 .projetoConteiner h3{
+  text-decoration: none;
   font-size: 1.3rem;
   text-shadow: 0 3px 10px #5d5e5e;
 }
@@ -519,14 +539,16 @@ section {
   padding-top:0.1rem;
 }
 
-/* CONTATO - FALE COMIGO */
+/*__ CONTATO - FALE COMIGO __*/
+
 .contato {
   background-color:#2d2e2e;
   min-height: auto;
   padding-bottom: 10rem;
+  text-decoration: none;
 }
 
-.contato h2{
+.contato h3{
   text-decoration: none;
   text-align: center;
   font-size: 4rem;
@@ -559,21 +581,108 @@ section {
 .contato form .caixaEntrada .campoEntrada {
   position: relative;
   width: 49%;
-  margin: 1.8rem 0; 
+  margin: .2rem 0; 
 }
 
 .contato form .caixaEntrada .campoEntrada input,
 .contato form .deixesuamsg textarea {
   width: 100%;
-  height: 80%;
-  padding: 0.2rem;
-  font-size: 1.5;
-  
+  height: 55%;
+  padding: 0.3rem;
+  font-size: 1.2rem;
   color:#2d2e2e;
-  border-radius:1rem;
-  border: .2rem solid rgb(226, 255, 3);
-  
+  border-radius:3rem;
+}
 
+.contato form .caixaEntrada .campoEntrada input::placeholder,
+.contato form .deixasuamsg textarea::placeholder {
+  color:#2d2e2e;
+}
+
+.contato form .deixesuamsg {
+  position: relative;
+  margin: 2rem 0;
+  display:flex;
+}
+
+.contato form .deixesuamsg textarea {
+resize:none;
+}
+
+.contato form .btnenviar .btn {
+  cursor: pointer;
+}
+
+form textarea {
+  font-family: "Lato", sans-serif;
+
+}
+/*__ BOTÃO ENVIAR MENSAGEM __*/
+
+.btnenviar {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  width: 13rem;
+  cursor: pointer;
+  
+}
+
+.btnenviar .btn {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 63%;
+  background:rgb(226, 255, 3);
+  text-decoration: none;
+  color: #2d2e2e;
+  border: 0.2rem solid rgb(226, 255, 3);
+  border-radius: 0.6rem ;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  z-index: 2;
+  overflow: hidden;
+  transition: .5s;
+  width: 100%;
+  margin-top: 8rem;
+  
+}
+
+.btnenviar .btn:hover {
+  color: rgb(226, 255, 3);
+}
+
+.btnenviar .btn :nth-child(2) {
+  background: transparent;
+  color: rgb(226, 255, 3);
+}
+
+.btnenviar .btn :nth-child(2)::before {
+  background: rgb(226, 255, 3);
+}
+
+.btnenviar .btn :nth-child(2):hover {
+  color: rgb(226, 255, 3);
+}
+
+.btnenviar .btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  transition: 0.5s;
+  z-index: -1;
+  background: #2d2e2e;
+}
+
+.btnenviar .btn:hover:before {
+  width: 100%;
 }
 
 
