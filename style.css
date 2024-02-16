@@ -3,7 +3,10 @@ body {
     font-weight: 400;
     font-style: normal;
     color: #2d2e2e;
+    text-decoration: none;
 }
+
+/*__ MENU SUPERIOR DE NAVEGAÇÃO __ */
 
 .header {
   background: rgb(226, 255, 3);
@@ -51,31 +54,29 @@ nav a.active {
   color: #2d2e2e;
   display: none;
   height: auto;
-  
 }
 
 section {
   min-height: 100vh;
-  padding: 5rem 3% 2rem;
+  padding: 3rem;
   max-width: 100%;
+  font-family: "Lato", sans-serif;
+  
 }
+
+/*__ INICIO IMAGEM __ */
 
 .inicio{
   display:flex;
-  padding: 9%;
-  background: url('bala.jpg') no-repeat;
-  background-size: 80%;
-  background-position: center;
+  padding: 0 9%;
+  background: url('bala6.jpg') no-repeat;
+  background-size: cover;
 }
 
 .inicioConteiner {
-  max-width: 40rem;
   padding-top: 7%;
-  padding-left: 9%;
-  font-size: 1.2rem;
-  font-weight: 500;
-  max-width: 50%;
 }
+
 
 .inicioConteiner h1 {
   font-size: 2.5rem;
@@ -90,6 +91,7 @@ section {
 }
 
 .inicioConteiner .text-animate h3 {
+  text-decoration: none;
   font-size: 2.8rem;
   font-weight: 600;
   color: rgb(226, 255, 3);
@@ -99,7 +101,7 @@ section {
 .inicioConteiner p {
   font-size: 1.2rem;
   margin: 1rem 0 3rem;
-  max-width: 80%;
+  
 }
 
 .btnCaixa {
@@ -163,13 +165,14 @@ section {
   width: 100%;
 }
 
+/*__ BOTÕES DAS REDES SOCIAIS __ */
+
 .sociais {
   position: absolute;
   bottom: 0.1rem;
   width: 180px;
   display: flex;
   justify-content: space-between;
-  margin-left: 7%;
   height: 7%;
   cursor: pointer;
   padding-top: 80rem;
@@ -214,6 +217,8 @@ section {
   width: 100%;
 }
 
+/*__ QUEM SOU __ */
+
 .quemSou {
   display: flex;
   justify-content: top;
@@ -240,6 +245,7 @@ section {
 }
 
 .quemsouConteiner h3 {
+  text-decoration: none;
   text-align: center;
   font-size: 1.8rem;
   padding-bottom: 0rem;
@@ -251,11 +257,42 @@ section {
   font-size: 1.2rem;
   max-width: 70rem;
   margin-bottom: 0;
-  text-shadow: 0 1px 5px #5d5e5e;
+  
 }
 
-/* OS SELETORES DAS CLASSES USADOS AQUI, VALEM PARA A SESSÃO INTEIRA DA TRILHA PROFISSIONAL.
-(educação e experiência profissional) */
+/*__ QUEM SOU IMAGEM __ */
+
+.quemsouimg {
+  position: relative;
+  width: 25rem;
+  height: 25rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.quemsouimg img {
+  width: 100%;
+  border-radius: 50%;
+  border: .2rem solid #2d2e2e;
+}
+
+.quemsouimg .circulo {
+  position:absolute;
+  top: 7%;
+  transform: translate(-50, -50%) rotate(0);
+  width: 116%;
+  height: 100%;
+  border-radius: 100%;
+  border-top: .4rem solid rgb(226, 255, 3);
+  border-bottom: .4rem solid rgb(226, 255, 3);
+  border-left: .4rem solid #2d2e2e;
+  border-right: .4rem solid #2d2e2e;
+}
+
+/*__ TRILHA PROFISSIONAL (educação e experiência profissional) __*/
+
 .trilhaProfissional {
   display: flex;
   justify-content: center;
@@ -296,7 +333,7 @@ section {
 }
 
 .aducacaoColuna .educacaoCaixa {
-  border-left: .4rem solid rgb(226, 255, 3);
+  border-left: .5rem solid rgb(226, 255, 3);
 }
 
 .educacaoCaixa .educacaoContent {
@@ -310,6 +347,7 @@ section {
 
 .educacaoContent .content h3 {
   font-size: 1.2rem;
+  text-decoration: none;
 }
 
 .educacaoContent .content .ano i {
@@ -322,11 +360,14 @@ section {
 
 .habilidades h3 {
   text-align: center;
+  text-decoration: none;
   font-size: 2.3rem;
   padding-top: 2rem;
   text-shadow: 0 3px 10px #5d5e5e;
   width: 100%;
 }
+
+/*__ HABILIDADES __ */
 
 .habilidades {
   display: flex;
@@ -343,6 +384,8 @@ section {
 .habilidades figcaption{
   font-size: 1.0rem;
 }
+
+/*__ BOTÃO CURRICULO __*/
 
 .btnCurriculo {
   align-items: center;
@@ -407,14 +450,16 @@ section {
 .btnCurriculo .curriculo:hover:before {
   width: 100%;
 }
-/* PROJETOS DESENVOLVIDOS USAM A CLASSE .PORTIFILIO */
-.portifolio {
+
+/*__ PROJETOS DESENVOLVIDOS __*/
+
+.projetos {
   background-color: #2d2e2e;
   margin-top: 8rem;
-  
+
 }
 
-.portifolio .cabeca {
+.projetos .cabeca {
   font-size: 4rem;
   color:rgb(226, 255, 3);
   text-align: center;
@@ -422,7 +467,7 @@ section {
   
 }
 
-.portifolio .cabeca span {
+.projetos .cabeca span {
   font-size: 4rem;
   font-weight: 600;
   color:#2d2e2e; 
@@ -431,42 +476,49 @@ section {
   text-shadow:0 2px 10px rgb(226, 255, 3);
 }
 
-.portifolio figcaption {
+.projetos figcaption {
   color: rgb(255, 255, 255);
   font-size: 1.2rem;
 }
 
-.portConteiner figure img {
+.projetoConteiner figure img {
   border-radius: 15px;
   height: 360px;
   width: 300px;
   box-shadow: 0 5px 10px black;
 }
 
-.portConteiner figure img:hover{
+.projetoConteiner figure img:hover{
   box-shadow: 0 10px 15px black;
   transform: scale(1.03);
   transition: .3s;
 }
 
-.portConteiner {
+.projetoConteiner {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.portConteiner figure {
+.projetoConteiner figure {
   margin: 0 2rem;
   text-align: center;
   padding-top: 4rem;
 }
 
-.portConteiner .card {
+.projetoConteiner .card {
   box-shadow: 0 5px 10px black;
   border-radius: 15px;
-  background: #ffff;
+  background: #ffffff;
   height: 359px;
   width: 300px;
+  cursor: pointer;
+}
+
+.projetoConteiner h3{
+  text-decoration: none;
+  font-size: 1.3rem;
+  text-shadow: 0 3px 10px #5d5e5e;
 }
 
 .card img {
@@ -474,45 +526,190 @@ section {
   height: auto;
 }
 
-.portConteiner .card img {
+.projetoConteiner .card img {
   height: 80px;
   width: 80px;
+  margin-top: 16px;
 }
 
-.portConteiner .card .btncodigo {
-  margin-top: 100px;
-  display: inline-block;
-  background: #2d2e2e;
-  color: #fff;
-  font-size: 1.2rem;
-  border-radius: 15px;
-  padding: 8px 25px;
-  text-decoration: none;
-  transition: .3s;
-    
-}
-
-.portConteiner .card:hover{
+.projetoConteiner .card:hover{
   box-shadow: 0 10px 15px black;
   transform: scale(1.03);
   transition: .3s;
+  
+}
+
+.projetoConteiner figcaption{
+  font-size: 1.2rem;
+  padding-top:0.1rem;
+}
+
+/*__ CONTATO - FALE COMIGO __*/
+
+.contato {
+  background-color:#2d2e2e;
+  padding-bottom: 10rem;
+  
+}
+
+.contato h2{
+  text-align: center;
+  font-size: 4rem;
+  color:#2d2e2e; 
+  -webkit-text-stroke: 2px rgb(226, 255, 3);
+  margin-top: 0;
+  text-shadow:0 2px 10px rgb(226, 255, 3);
+}
+
+.contato span {
+  
+  font-size: 4rem;
+  color: rgb(226, 255, 3);
+  text-shadow:0 2px 10px rgb(226, 255, 3);
+}
+
+.contato form {
+  max-width: 70rem;
+  margin: 0 auto;
+  text-align: center;
+ 
+}
+
+.contato form .caixaEntrada{
+  position:relative;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+ 
+}
+.contato form .caixaEntrada .campoEntrada {
+  position: relative;
+  width: 49%;
+  margin: .2rem 0; 
+}
+
+.contato form .caixaEntrada .campoEntrada input,
+.contato form .deixesuamsg textarea {
+  width: 100%;
+  height: 55%;
+  padding: 0.3rem;
+  font-size: 1rem;
+  color:#2d2e2e;
+  border-radius:3rem;
+  
+}
+
+.contato form .caixaEntrada .campoEntrada input::placeholder,
+.contato form .deixesuamsg textarea::placeholder {
+  color:#808080;
+  padding-top: 1rem;
+  font-family: "Lato", sans-serif;
+  text-decoration:none;
+}
+
+.contato form .deixesuamsg {
+  position: relative;
+  margin: 2rem 0;
+  display:flex;
+}
+
+.contato form .deixesuamsg textarea {
+  resize: none;
+}
+
+.contato form .btnenviar .btn {
+  cursor: pointer;
+}
+
+/*__ BOTÃO ENVIAR MENSAGEM __*/
+
+.btnenviar {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+  width: 13rem;
+  cursor: pointer;
+  padding-left: 30rem;
+  
+}
+
+.btnenviar .btn {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 63%;
+  background:rgb(226, 255, 3);
+  text-decoration: none;
+  color: #2d2e2e;
+  border: 0.2rem solid rgb(226, 255, 3);
+  border-radius: 0.6rem ;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  z-index: 2;
+  overflow: hidden;
+  transition: .5s;
+  width: 100%;
+  margin-top: 8rem;
+  
+}
+
+.btnenviar .btn:hover {
+  color: rgb(226, 255, 3);
+}
+
+.btnenviar .btn :nth-child(2) {
+  background: transparent;
+  color: rgb(226, 255, 3);
+}
+
+.btnenviar .btn :nth-child(2)::before {
+  background: rgb(226, 255, 3);
+}
+
+.btnenviar .btn :nth-child(2):hover {
+  color: rgb(226, 255, 3);
+}
+
+.btnenviar .btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  transition: 0.5s;
+  z-index: -1;
+  background: #2d2e2e;
+}
+
+.btnenviar .btn:hover:before {
+  width: 100%;
 }
 
 
-.portConteiner .card .btncodigo:hover,
-.portConteiner .card .btncodigo.active {
-  font-size: 1.4rem;
-  font-weight: 300;
-  -webkit-text-stroke: 2px #f8f8f8;
-}
 
-.portConteiner figcaption{
-  font-size: 1.2;
-  padding-top:0.5rem;
+
+
+
+
+
+
+
+
+  
+  
+
   
   
   
-}
+  
+  
+
 
 
 
