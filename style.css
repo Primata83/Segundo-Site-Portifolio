@@ -545,18 +545,8 @@ section {
 
 .projetoConteiner figcaption{
   font-size: 1.2rem;
-  padding-top:0.1rem;
+  padding-top: .1rem;
   }
-
-.projetos .projetoConteiner a{
-  text-decoration:none;
-  color: inherit;
-}
-
-.projetos .projetoConteiner p{
-  text-decoration:none;
-  color: inherit;
-}
 
 /*__ CONTATO >>> FALE COMIGO __*/
 
@@ -585,7 +575,7 @@ section {
 }
 
 .contato form {
-  max-width: 70rem;
+  max-width: 65rem;
   margin: 0 auto;
   text-align: center;
  
@@ -602,7 +592,7 @@ section {
 .contato form .caixaEntrada .campoEntrada {
   position: relative;
   width: 49%;
-  margin: .2rem 0; 
+  margin: .1rem 0; 
 }
 
 .contato form .caixaEntrada .campoEntrada input,
@@ -610,9 +600,9 @@ section {
   width: 100%;
   height: 55%;
   padding: 0.3rem;
-  font-size: 1rem;
-  color:#2d2e2e;
-  border-radius:3rem;
+  font-size: 1.2rem;
+  color:black;
+  border-radius:1.5rem;
   
 }
 
@@ -621,7 +611,7 @@ section {
   color:#808080;
   padding-top: 1rem;
   font-family: "Lato", sans-serif;
-  text-decoration:none;
+  font-size: 1.1rem;
 }
 
 .contato form .deixesuamsg {
@@ -641,14 +631,13 @@ section {
 /*__ BOTÃO ENVIAR MENSAGEM __*/
 
 .btnenviar {
-  align-items: center;
-  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 4rem;
   width: 13rem;
   cursor: pointer;
-  padding-left: 30rem;
+  padding-left: 26rem;
   
 }
 
