@@ -170,10 +170,10 @@ section {
 .sociais {
   position: absolute;
   bottom: 0.1rem;
-  width: 180px;
+  width: 125px;
   display: flex;
   justify-content: space-between;
-  height: 7%;
+  height: 1%;
   cursor: pointer;
   padding-top: 80rem;
 
