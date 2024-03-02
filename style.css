@@ -257,7 +257,7 @@ section {
   text-align: center;
   font-size: 2rem;
   padding-bottom: 0rem;
-  text-shadow: 0 1px 5px #ffffff; 
+  text-shadow: 0 1px 5px #ffff; 
   color: #ffff
 }
 
@@ -344,7 +344,7 @@ section {
   font-size: 2.5rem;
   margin: 0 0 1.6rem 4rem;
   text-shadow: 0 1px 7px #b5b5b5;
-  color: white;
+  color: #ffff
 }
 
 .aducacaoColuna .educacaoCaixa {
@@ -354,7 +354,7 @@ section {
 .educacaoCaixa .educacaoContent {
   position: relative;
   padding-left: 2rem;
-  color: white;
+  color: #ffff
 }
 
 .educacaoLinha .aducacaoColuna .titulo {
@@ -393,7 +393,7 @@ section {
 .habilidades figure {
   margin: 0 2rem;
   text-align: center;
-  color: #ffff;
+  color: #ffff
 
 }
 
@@ -497,7 +497,7 @@ section {
 }
 
 .projetos figcaption {
-  color: rgb(255, 255, 255);
+  color: #ffff;
   font-size: 1.2rem;
 }
 
@@ -530,7 +530,7 @@ section {
 .projetoConteiner .card {
   box-shadow: 0 5px 10px black;
   border-radius: 15px;
-  background: #ffffff;
+  background: #ffff;
   height: 359px;
   width: 300px;
   cursor: pointer;
