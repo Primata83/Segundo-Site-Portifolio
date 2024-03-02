@@ -107,11 +107,13 @@ section {
   
 }
 
+/* BOTÃO TELEGRAM E WHATSAPP */
+
 .btnCaixa {
   display: flex;
   justify-content: space-between;
   height: 4rem;
-  width: 23rem;
+  width: 22rem;
   cursor: pointer;
 }
 
@@ -120,8 +122,8 @@ section {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 11rem;
-  height: 63%;
+  width: 10rem;
+  height: 55%;
   background:rgb(226, 255, 3);
   text-decoration: none;
   color: #2d2e2e;
