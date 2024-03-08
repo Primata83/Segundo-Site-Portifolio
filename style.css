@@ -112,7 +112,7 @@ section {
 .btnCaixa {
   display: flex;
   justify-content: space-between;
-  height: 4rem;
+  height: 3.5rem;
   width: 22rem;
   cursor: pointer;
 }
@@ -404,7 +404,7 @@ section {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  height: 4rem;
+  height: 3.5rem;
   width: 13rem;
   text-decoration: none;
 }
@@ -420,7 +420,7 @@ section {
   color: #2d2e2e;
   border: 0.2rem solid rgb(226, 255, 3);
   border-radius: 0.6rem ;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
   z-index: 2;
@@ -642,13 +642,16 @@ section {
 /*__ BOTÃO ENVIAR MENSAGEM __*/
 
 .btnenviar {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  height: 4rem;
-  width: 13rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 3.5rem;
+  width: 10rem;
   cursor: pointer;
-  padding-left: 26rem;
+  padding-left: 28rem;
+  
+  
   
 }
 
@@ -663,7 +666,7 @@ section {
   color: #2d2e2e;
   border: 0.2rem solid rgb(226, 255, 3);
   border-radius: 0.6rem ;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
   z-index: 2;
