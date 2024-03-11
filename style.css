@@ -709,7 +709,43 @@ section {
 .btnenviar .btn:hover:before {
   width: 100%;
 }
-/*parei aqui*/
+
+/*__ RODAPE - FOOTER __*/
+
+ footer{
+  background-color:#2d2e2e;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 9%;
+  border-bottom: 0.2rem ;
+  padding-bottom: 1rem;
+  color: rgb(226, 255, 3);
+  
+}
+
+.rodape-texto p{
+  color: rgb(226, 255, 3);
+  font-size: 1.1rem;
+}
+
+.rodape-icone a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: .8rem;
+  text-decoration: none;
+}
+
+.rodape-icone a i {
+  font-size: 2.5rem;
+  color:rgb(226, 255, 3);
+  
+}
+
+
 
 
 
