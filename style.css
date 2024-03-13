@@ -13,9 +13,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 5%;
+  padding: 0.8rem 5%;
   border-bottom: 0.2rem ;
-  padding-bottom: 1rem;
+  padding-bottom: 0.8rem;
   font-size: 1rem;
   z-index: 100;
 }
@@ -104,7 +104,6 @@ section {
 .inicioConteiner p {
   font-size: 1.2rem;
   margin: 1rem 0 3rem;
-  
 }
 
 /* BOTÃO TELEGRAM E WHATSAPP */
@@ -112,8 +111,8 @@ section {
 .btnCaixa {
   display: flex;
   justify-content: space-between;
-  height: 3.5rem;
-  width: 22rem;
+  height: 3.4rem;
+  width: 21rem;
   cursor: pointer;
 }
 
@@ -122,14 +121,14 @@ section {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 10rem;
+  width: 9.5rem;
   height: 55%;
   background:rgb(226, 255, 3);
   text-decoration: none;
   color: #2d2e2e;
   border: 0.1rem solid #2d2e2e;
   border-radius: 0.6rem ;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
   z-index: 2;
@@ -389,8 +388,7 @@ section {
 .habilidades figure {
   margin: 0 2rem;
   text-align: center;
-  color: #ffff
-
+  color: #ffff;
 }
 
 .habilidades figcaption{
@@ -404,8 +402,8 @@ section {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  height: 3.5rem;
-  width: 13rem;
+  height: 3.4rem;
+  width: 11rem;
   text-decoration: none;
 }
 
@@ -420,7 +418,7 @@ section {
   color: #2d2e2e;
   border: 0.2rem solid rgb(226, 255, 3);
   border-radius: 0.6rem ;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
   z-index: 2;
@@ -565,6 +563,7 @@ section {
 
 .contato {
   background-color:#2d2e2e;
+  background-position: center;
   
 }
 
@@ -713,21 +712,17 @@ section {
 /*__ RODAPE - FOOTER __*/
 
  footer{
-  background-color:#2d2e2e;
+  background-color: rgb(226, 255, 3);
   display:flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 2rem 9%;
-  border-bottom: 0.2rem ;
-  padding-bottom: 1rem;
-  color: rgb(226, 255, 3);
-  
-}
+  padding: 0.1rem 20%;
+  font-size: 1rem;
+  }
 
 .rodape-texto p{
-  color: rgb(226, 255, 3);
-  font-size: 1.1rem;
+  color:#2d2e2e;
+  font-size: 1rem;
+  
+  
 }
 
 .rodape-icone a {
@@ -741,8 +736,16 @@ section {
 
 .rodape-icone a i {
   font-size: 2.5rem;
-  color:rgb(226, 255, 3);
-  
+  color:#2d2e2e;
+  padding-left: 50rem;
+  transition: .5s;
+}
+
+.rodape-icone a i:hover,
+.rodape-icone a i:active {
+  font-size: 2.8rem;
+  font-weight: 500;
+  -webkit-text-stroke: 2px #2d2e2e;
 }
 
 
