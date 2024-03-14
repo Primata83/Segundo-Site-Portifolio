@@ -13,9 +13,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 5%;
+  padding: 0.8rem 5%;
   border-bottom: 0.2rem ;
-  padding-bottom: 1rem;
+  padding-bottom: 0.8rem;
   font-size: 1rem;
   z-index: 100;
 }
@@ -106,13 +106,13 @@ section {
   margin: 1rem 0 3rem;
 }
 
-/* BOTÃO TELEGRAM E WHATSAPP */
+/*__ BOTÃO TELEGRAM E WHATSAPP __*/
 
 .btnCaixa {
   display: flex;
   justify-content: space-between;
-  height: 4rem;
-  width: 22rem;
+  height: 3.4rem;
+  width: 21rem;
   cursor: pointer;
 }
 
@@ -121,14 +121,14 @@ section {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 10rem;
+  width: 9.5rem;
   height: 55%;
   background:rgb(226, 255, 3);
   text-decoration: none;
   color: #2d2e2e;
   border: 0.1rem solid #2d2e2e;
   border-radius: 0.6rem ;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
   z-index: 2;
@@ -389,8 +389,7 @@ section {
 .habilidades figure {
   margin: 0 2rem;
   text-align: center;
-  color: #ffff
-
+  color: #ffff;
 }
 
 .habilidades figcaption{
@@ -404,8 +403,8 @@ section {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  height: 4rem;
-  width: 13rem;
+  height: 3.4rem;
+  width: 11rem;
   text-decoration: none;
 }
 
@@ -420,7 +419,7 @@ section {
   color: #2d2e2e;
   border: 0.2rem solid rgb(226, 255, 3);
   border-radius: 0.6rem ;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
   z-index: 2;
@@ -571,6 +570,7 @@ section {
 
 .contato {
   background-color:#2d2e2e;
+  background-position: center;
   
   
 }
@@ -648,14 +648,14 @@ section {
 /*__ BOTÃO ENVIAR MENSAGEM __*/
 
 .btnenviar {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  height: 4rem;
-  width: 13rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 3.5rem;
+  width: 10rem;
   cursor: pointer;
-  padding-left: 26rem;
-  
+  padding-left: 28rem;
 }
 
 .btnenviar .btn {
@@ -669,7 +669,7 @@ section {
   color: #2d2e2e;
   border: 0.2rem solid rgb(226, 255, 3);
   border-radius: 0.6rem ;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
   z-index: 2;
@@ -712,7 +712,47 @@ section {
 .btnenviar .btn:hover:before {
   width: 100%;
 }
-/*parei aqui*/
+
+/*__ RODAPE - FOOTER __*/
+
+ footer{
+  background-color: rgb(226, 255, 3);
+  display:flex;
+  padding: 0.1rem 20%;
+  font-size: 1rem;
+  }
+
+.rodape-texto p{
+  color:#2d2e2e;
+  font-size: 1rem;
+  
+}
+
+.rodape-icone a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: .8rem;
+  text-decoration: none;
+}
+
+.rodape-icone a i {
+  font-size: 2.5rem;
+  color:#2d2e2e;
+  border-right: 90rem;
+  transition: .5s;
+  width: 100%;
+}
+
+.rodape-icone a i:hover,
+.rodape-icone a i:active {
+  font-size: 2.8rem;
+  font-weight: 500;
+  -webkit-text-stroke: 2px #2d2e2e;
+}
+
+
 
 
 
