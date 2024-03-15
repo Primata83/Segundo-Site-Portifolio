@@ -106,7 +106,7 @@ section {
   margin: 1rem 0 3rem;
 }
 
-/* BOTÃO TELEGRAM E WHATSAPP */
+/*__ BOTÃO TELEGRAM E WHATSAPP __*/
 
 .btnCaixa {
   display: flex;
@@ -649,9 +649,6 @@ section {
   width: 10rem;
   cursor: pointer;
   padding-left: 28rem;
-  
-  
-  
 }
 
 .btnenviar .btn {
@@ -722,7 +719,6 @@ section {
   color:#2d2e2e;
   font-size: 1rem;
   
-  
 }
 
 .rodape-icone a {
@@ -737,8 +733,9 @@ section {
 .rodape-icone a i {
   font-size: 2.5rem;
   color:#2d2e2e;
-  padding-left: 50rem;
+  border-right: 90rem;
   transition: .5s;
+  width: 100%;
 }
 
 .rodape-icone a i:hover,
