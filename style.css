@@ -507,7 +507,7 @@ section {
 .projetoConteiner figure img:hover{
   box-shadow: 0 10px 15px black;
   transform: scale(1.03);
-  transition: .3s;
+  transition: .6s;
   text-decoration: none;
 }
 
@@ -555,7 +555,7 @@ section {
 .projetoConteiner .card:hover{
   box-shadow: 0 10px 15px black;
   transform: scale(1.03);
-  transition: .3s;
+  transition: .6s;
   
 }
 
@@ -714,42 +714,53 @@ section {
  footer{
   background-color: rgb(226, 255, 3);
   display:flex;
-  padding: 0.1rem 11%;
+  padding: 0.1px;
+  position:center;
+  align-items: center;
+  text-align: center;
   }
 
 .rodape-texto p{
   color:#2d2e2e;
   font-size: 1rem;
-
-  width: 32rem;
-}
-
-.rodape-icone a {
-  display: inline-flex;
-  display: flex;
   align-items: center;
-  padding: .5rem;
-  text-decoration: none;
-}
-
-.rodape-icone a i {
-  font-size: 2.5rem;
-  color:#2d2e2e;
-  border-right: 90rem;
-  transition: .5s;
   display: flex;
-  justify-content: flex-end; /* Alinhar o conteúdo à direita */
-  max-width: 1200px; /* Definir uma largura máxima para o conteúdo */
-  margin: 0 auto;
-  text-align: right;
-  }
-
-.rodape-icone a i:hover,
-.rodape-icone a i:active {
-  font-size: 2.8rem;
-  font-weight: 500;
-  text-shadow:0 2px 10px #2d2e2e
+  text-align: center;
+  margin-right: auto;
+  
+  padding-right: 40rem;
 }
+
+.rodape-icone {
+  align-items: center;
+  padding-right: center;
+  display: flex;
+  justify-content: space-between;
+  height: 3.4rem;
+  width: 1rem;
+ 
+}
+
+.rodape-icone i {
+  height: 63%;
+  background:#2d2e2e;
+  color: rgb(69, 71, 60);
+  border-radius: 0.6rem ;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  transition: .5s;
+  width: 100%;
+}
+
+.rodape-icone i:hover {
+  color: rgb(226, 255, 3);
+}
+
+
+
+
+
+
 
 
 
