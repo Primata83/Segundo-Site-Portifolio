@@ -720,16 +720,16 @@ section {
   padding-right: 10px;
   padding-left: 10px;
   display: flex;
-  float: right;
+  
 }
 
 .rodape-icone {
   align-items: center;
- display: flex;
+  display: flex;
   justify-content: space-between;
   height: 3.4rem;
-  width: 1rem;
-  float: right;
+  
+  
 }
 
 .rodape-icone i {
