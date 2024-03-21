@@ -555,7 +555,7 @@ section {
 .projetoConteiner .card:hover{
   box-shadow: 0 10px 15px black;
   transform: scale(1.03);
-  transition: .6s;
+  transition: .5s;
   
 }
 
@@ -646,7 +646,7 @@ section {
   align-items: center;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   height: 3.4rem;
   width: 11rem;
   text-decoration: none;
@@ -677,18 +677,11 @@ section {
   color: rgb(226, 255, 3);
 }
 
-.btnenviar .btn :nth-child(2) {
-  background: transparent;
-  color: rgb(226, 255, 3);
-}
 
-.btnenviar .btn :nth-child(2)::before {
-  background: rgb(226, 255, 3);
-}
 
-.btnenviar .btn :nth-child(2):hover {
-  color: rgb(226, 255, 3);
-}
+
+
+
 
 .btnenviar .btn::before {
   content: '';
@@ -714,22 +707,20 @@ section {
   padding: 0.1px;
   }
 
-.rodape-texto p{
+.rodape-texto {
   color:#2d2e2e;
   font-size: 1rem;
-  padding-right: 10px;
-  padding-left: 10px;
   display: flex;
-  
+  justify-content: center;
+  width:100%;
 }
 
 .rodape-icone {
-  align-items: center;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   height: 3.4rem;
-  
-  
+  position:relative;
+  right: 10rem
 }
 
 .rodape-icone i {
@@ -740,8 +731,6 @@ section {
   font-size: 2.5rem;
   letter-spacing: 0.1rem;
   transition: .5s;
-  width: 100%;
-  float: right;
 }
 
 .rodape-icone i:hover {
