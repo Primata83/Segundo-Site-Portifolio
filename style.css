@@ -1,12 +1,12 @@
 body {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #2d2e2e;
-    text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2d2e2e;
+  text-decoration: none;
 }
 
-/*__ MENU SUPERIOR DE NAVEGAÇÃO __ */
+/*__ MENU SUPERIOR DE NAVEGAÇÃO DA PAGINA __ */
 
 .header {
   background: rgb(226, 255, 3);
@@ -137,19 +137,6 @@ section {
 }
 
 .btnCaixa .btn:hover {
-  color: rgb(226, 255, 3);
-}
-
-.btnCaixa .btn :nth-child(2) {
-  background: transparent;
-  color: rgb(226, 255, 3);
-}
-
-.btnCaixa .btn :nth-child(2)::before {
-  background: rgb(226, 255, 3);
-}
-
-.btnCaixa .btn :nth-child(2):hover {
   color: rgb(226, 255, 3);
 }
 
@@ -405,7 +392,6 @@ section {
   justify-content: space-between;
   height: 3.4rem;
   width: 11rem;
-  text-decoration: none;
 }
 
 .btnCurriculo .curriculo {
@@ -426,27 +412,10 @@ section {
   overflow: hidden;
   transition: .5s;
   width: 100%;
-  margin-top: 11rem;
-}
-
-.btnCurriculo .curriculo a{
-  text-decoration: none;
+  margin-top: 12rem;
 }
 
 .btnCurriculo .curriculo:hover {
-  color: rgb(226, 255, 3);
-}
-
-.btnCurriculo .curriculo :nth-child(2) {
-  background: transparent;
-  color: rgb(226, 255, 3);
-}
-
-.btnCurriculo .curriculo :nth-child(2)::before {
-  background: rgb(226, 255, 3);
-}
-
-.btnCurriculo .curriculo :nth-child(2):hover {
   color: rgb(226, 255, 3);
 }
 
@@ -478,8 +447,6 @@ section {
   text-align: center;
   text-shadow:0 2px 10px rgb(226, 255, 3);
   padding-top: 5rem;
-  
-  
 }
 
 .projetos .cabeca span {
@@ -495,6 +462,7 @@ section {
   color: rgb(255, 255, 255);
   font-size: 1.2rem;
   text-decoration: none;
+  margin-top: 0.6rem;
 }
 
 .projetoConteiner figure img {
@@ -532,11 +500,9 @@ section {
   height: 359px;
   width: 300px;
   cursor: pointer;
-  
 }
 
 .projetoConteiner h3{
-  
   font-size: 1.3rem;
   text-shadow: 0 3px 10px #5d5e5e;
 }
@@ -644,12 +610,10 @@ section {
 
 .btnenviar {
   align-items: center;
-  width: 100%;
   display: flex;
   justify-content: center;
   height: 3.4rem;
-  width: 11rem;
-  text-decoration: none;
+  margin-top:7rem;
 }
 
 .btnenviar .btn {
@@ -659,7 +623,7 @@ section {
   align-items: center;
   height: 63%;
   background:rgb(226, 255, 3);
-  text-decoration: none;
+  width: 11rem;
   color: #2d2e2e;
   border: 0.2rem solid rgb(226, 255, 3);
   border-radius: 0.6rem ;
@@ -669,19 +633,12 @@ section {
   z-index: 2;
   overflow: hidden;
   transition: .5s;
-  width: 100%;
   margin-top: 3rem;
 }
 
 .btnenviar .btn:hover {
   color: rgb(226, 255, 3);
 }
-
-
-
-
-
-
 
 .btnenviar .btn::before {
   content: '';
