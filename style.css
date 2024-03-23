@@ -1,3 +1,4 @@
+/* CORPO DA PAGINA */
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -6,7 +7,13 @@ body {
   text-decoration: none;
 }
 
-/*__ MENU SUPERIOR DE NAVEGAÇÃO DA PAGINA __ */
+/* MOVIMENTAÇÃO DA PAGINA */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* MENU SUPERIOR DE NAVEGAÇÃO DA PAGINA */
 
 .header {
   background: rgb(226, 255, 3);
@@ -24,7 +31,7 @@ body {
   font-family: "Libre Barcode 128 Text", system-ui;
   font-weight: 500;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 nav li {
@@ -38,14 +45,13 @@ nav a {
   font-weight: 600;
   font-size: 0.9rem;
   text-decoration: none;
-  transition: .3s;
+  transition: .5s;
 }
 
-nav a:hover,
-nav a.active {
+nav a:hover{
   font-size: 1rem;
-  font-weight: 500;
-  -webkit-text-stroke: 2px #2d2e2e;
+  font-weight: 600;
+  -webkit-text-stroke: 1.7px #2d2e2e;
 }
 
 #caixaMenu {
@@ -64,13 +70,13 @@ section {
   
 }
 
-/*__ INICIO IMAGEM __ */
+/* INICIO FOTO PRINCIPAL */
 
 .inicio{
   display:flex;
   align-items: center;
   padding: 0 10%;
-  background: url('bala9.jpg') no-repeat;
+  background: url('fotos/bala9.jpg') no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -89,10 +95,6 @@ section {
   text-shadow: 0 1px 5px #5d5e5e; 
 }
 
-.inicioConteiner .text-animate {
-  width: 40rem;
-}
-
 .inicioConteiner .text-animate h3 {
   text-decoration: none;
   font-size: 2.8rem;
@@ -104,9 +106,10 @@ section {
 .inicioConteiner p {
   font-size: 1.2rem;
   margin: 1rem 0 3rem;
+  position: relative;
 }
 
-/*__ BOTÃO TELEGRAM E WHATSAPP __*/
+/* BOTÃO TELEGRAM E WHATSAPP */
 
 .btnCaixa {
   display: flex;
@@ -156,7 +159,7 @@ section {
   width: 100%;
 }
 
-/*__ BOTÕES DAS REDES SOCIAIS __ */
+/* BOTÕES DAS REDES SOCIAIS */
 
 .sociais {
   position: absolute;
@@ -207,7 +210,7 @@ section {
   width: 100%;
 }
 
-/*__ QUEM SOU __ */
+/* QUEM SOU */
 
 .quemSou {
   display: flex;
@@ -254,7 +257,7 @@ section {
   color:#ffffff;
 }
 
-/*__ QUEM SOU IMAGEM __ */
+/* QUEM SOU IMAGEM  */
 
 .quemsouimg {
   position: relative;
@@ -285,7 +288,7 @@ section {
   border-right: .4rem solid rgb(226, 255, 3);
 }
 
-/*__ TRILHA PROFISSIONAL (educação e experiência profissional) __*/
+/* TRILHA PROFISSIONAL (educação e experiência profissional) */
 
 .trilhaProfissional {
   display: flex;
@@ -365,7 +368,7 @@ section {
   color: rgb(226, 255, 3);
 }
 
-/*__ HABILIDADES __ */
+/* HABILIDADES  */
 
 .habilidades {
   display: flex;
@@ -380,10 +383,10 @@ section {
 }
 
 .habilidades figcaption{
-  font-size: 1.0rem;
+  font-size: 0.8rem;
 }
 
-/*__ BOTÃO BAIXAR CURRICULO __*/
+/* BOTÃO BAIXAR CURRICULO */
 
 .btnCurriculo {
   align-items: center;
@@ -435,7 +438,7 @@ section {
   width: 100%;
 }
 
-/*__ PROJETOS DESENVOLVIDOS __*/
+/* PROJETOS DESENVOLVIDOS */
 
 .projetos {
   background-color: #2d2e2e;
@@ -483,6 +486,7 @@ section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
   text-decoration: none;
 }
 
@@ -497,8 +501,8 @@ section {
   box-shadow: 0 5px 10px black;
   border-radius: 15px;
   background: #ffff;
-  height: 359px;
-  width: 300px;
+  height: 350px;
+  width: 290px;
   cursor: pointer;
 }
 
@@ -530,7 +534,7 @@ section {
   padding-top:0.1rem;
 }
 
-/*__ CONTATO >>> FALE COMIGO __*/
+/* CONTATO >>> FALE COMIGO */
 
 .contato {
   background-color:#2d2e2e;
@@ -606,7 +610,7 @@ section {
   cursor: pointer;
 }
 
-/*__ BOTÃO ENVIAR MENSAGEM __*/
+/* BOTÃO ENVIAR MENSAGEM */
 
 .btnenviar {
   align-items: center;
@@ -656,7 +660,7 @@ section {
   width: 100%;
 }
 
-/*__ RODAPE - FOOTER __*/
+/* RODAPE - FOOTER */
 
  .rodape{
   background-color: rgb(226, 255, 3);
@@ -670,6 +674,7 @@ section {
   display: flex;
   justify-content: center;
   width:100%;
+  letter-spacing: 1px
 }
 
 .rodape-icone {
@@ -695,4 +700,6 @@ section {
   text-shadow:0 2px 10px rgb(226, 255, 3);
 }
 
-
+.rodape-texto span {
+-webkit-text-stroke: 1px #2d2e2e;
+}
